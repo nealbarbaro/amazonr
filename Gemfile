@@ -15,6 +15,10 @@ group :development do
   gem 'annotate'
 end
 
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
