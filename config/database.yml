@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: amazonr_development
+  pool: 5
+  username: x
+  password: 5544
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: amazonr_test
+  pool: 5
+  username: x
+  password: 5544
+  min_messages: WARNING
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: amazonr_production
+  pool: 5
+  username: x
+  password: 5544
